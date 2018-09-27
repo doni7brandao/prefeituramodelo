@@ -7,5 +7,5 @@
  Este programa é software livre; você pode redistribuí-lo e/ou
  modificá-lo sob os termos da Licença GPL2.
 ***********************************************************************************/
-header("Location: index"); 
+header("Location: demo"); 
 ?>
