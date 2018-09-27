@@ -1,0 +1,282 @@
+/* ------------------------------------------------------------------------ */
+/* $CONTENTS
+/* ------------------------------------------------------------------------ */
+
+/*
+
+    01. $CONTENTS
+    02. $TRANSPARENT
+    03. $BLACK ( #000 )
+    04. $WHITE ( #FFF )
+    05. $DARK GREY ( #2A2A2A )
+    06. $LIGHT GREY ( #A8A8A8 )
+    07. $BLUE ( #70C7F4 )
+    08. $GREEN ( #85C028 )
+    09. $YELLOW ( #F9BA00 )
+    10. $TURQUOISE ( #5BCCCA )
+    11. $ORANGE ( #F39F4B )
+    12. $BACKGROUND IMAGES
+
+*/
+
+/* ------------------------------------------------------------------------ */
+/* $TRANSPARENT
+/* ------------------------------------------------------------------------ */
+
+#dark .mejs-container button 
+
+{ background-color: transparent; }
+
+/* ------------------------------------------------------------------------ */
+/* $BLACK ( #000 )
+/* ------------------------------------------------------------------------ */
+
+/* ------------------------------------------ */
+/* $BACKGROUND
+/* ------------------------------------------ */
+
+/* embeded videos like ( youtube - vimeo ) */
+#dark .mejs-embed, .mejs-embed body,
+
+/* main container */
+#dark .mejs-container ,
+
+/* timer tooltip */
+#dark .mejs-controls .mejs-time-rail .mejs-time-float 
+
+{ background-color: #000; }
+
+/* ------------------------------------------ */
+/* $BORDERS
+/* ------------------------------------------ */
+
+/* tooltip bottom pointer */
+#dark .mejs-controls .mejs-time-rail .mejs-time-float-corner 
+
+{  border-color: #000 transparent transparent transparent; }
+
+/* ------------------------------------------------------------------------ */
+/* $WHITE ( #FFF )
+/* ------------------------------------------------------------------------ */
+
+/* ------------------------------------------ */
+/* $BACKGROUND
+/* ------------------------------------------ */
+
+/* total time */
+#dark .mejs-controls .mejs-time-rail .mejs-time-total 
+
+{ background-color: rgba(255, 255, 255, 0.05); }
+
+/* ready ( loaded time ) bar */
+#dark .mejs-controls .mejs-time-rail .mejs-time-loaded 
+
+{ background-color: rgba(255, 255, 255, 0.15); }
+
+/* volume total */
+#dark .mejs-horizontal-volume-slider .mejs-horizontal-volume-total { background-color: rgba(255, 255, 255, 0.2); }
+
+/* ------------------------------------------ */
+/* $COLOR
+/* ------------------------------------------ */
+
+/* error link */
+#dark .me-cannotplay a,
+
+/* sourcechooser menu */
+#dark .mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector ul li input:checked + label,
+#dark .mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector ul li:hover label
+
+ { color: #FFF;  }
+
+/* sourcechooser menu item */
+.mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector ul li
+
+{ color: rgba(255, 255, 255, 0.8); }
+
+/* ------------------------------------------------------------------------ */
+/* $DARK GREY ( #2A2A2A )
+/* ------------------------------------------------------------------------ */
+
+/* ------------------------------------------ */
+/* $BACKGROUND
+/* ------------------------------------------ */
+
+/* big paly button */
+#dark .mejs-overlay-button,
+
+/* loader button */
+#dark .mejs-overlay-loading,
+
+/* controls */
+#dark .mejs-controls,
+
+/* sourcechooser list */
+#dark .mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector ul
+
+{ background-color: #2A2A2A; }
+
+/* ------------------------------------------ */
+/* $BORDERS
+/* ------------------------------------------ */
+
+/* sourcechooser menu pointer */
+#dark .mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector:after
+
+{ border-color: #2a2a2a transparent transparent transparent; } 
+
+/* ------------------------------------------------------------------------ */
+/* $LIGHT GREY ( #A8A8A8 )
+/* ------------------------------------------------------------------------ */
+
+
+/* ------------------------------------------ */
+/* $COLOR
+/* ------------------------------------------ */
+
+/* time */
+#dark .mejs-time span
+
+{ color: #A8A8A8; }
+
+/* ------------------------------------------------------------------------ */
+/* $LIGHT GREY ( #808080 )
+/* ------------------------------------------------------------------------ */
+
+
+/* ------------------------------------------ */
+/* $COLOR
+/* ------------------------------------------ */
+
+/* current time tooltip */
+#dark .mejs-controls .mejs-time-rail .mejs-time-float
+
+{ color: #808080; }
+
+/* ------------------------------------------------------------------------ */
+/* $BLUE ( #70C7F4 )
+/* ------------------------------------------------------------------------ */
+
+/* ------------------------------------------ */
+/* $BACKGROUND
+/* ------------------------------------------ */
+
+/* current time bar ( represent watched period ) */
+#dark .mejs-blue .mejs-controls .mejs-time-rail .mejs-time-current,
+
+/* adjust current time */
+#dark .mejs-blue .mejs-controls .mejs-time-rail .mejs-time-handle,
+
+/* current volume */
+#dark .mejs-blue .mejs-horizontal-volume-slider .mejs-horizontal-volume-current,
+
+/* sourcechooser menu */
+#dark .mejs-blue .mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector ul li input:checked + label,
+#dark .mejs-blue .mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector ul li:hover label
+
+{ background-color: #70C7F4; }
+
+/* ------------------------------------------------------------------------ */
+/* $GREEN ( #85C028 )
+/* ------------------------------------------------------------------------ */
+
+/* ------------------------------------------ */
+/* $BACKGROUND
+/* ------------------------------------------ */
+
+/* current time bar ( represent watched period ) */
+#dark .mejs-green .mejs-controls .mejs-time-rail .mejs-time-current,
+
+/* adjust current time */
+#dark .mejs-green .mejs-controls .mejs-time-rail .mejs-time-handle,
+
+/* current volume */
+#dark .mejs-green .mejs-horizontal-volume-slider .mejs-horizontal-volume-current,
+
+/* sourcechooser menu */
+#dark .mejs-green .mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector ul li input:checked + label,
+#dark .mejs-green .mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector ul li:hover label
+
+{ background-color: #85C028; }
+
+/* ------------------------------------------------------------------------ */
+/* $YELLOW ( #F9BA00 )
+/* ------------------------------------------------------------------------ */
+
+/* ------------------------------------------ */
+/* $BACKGROUND
+/* ------------------------------------------ */
+
+/* current time bar ( represent watched period ) */
+#dark .mejs-yellow .mejs-controls .mejs-time-rail .mejs-time-current,
+
+/* adjust current time */
+#dark .mejs-yellow .mejs-controls .mejs-time-rail .mejs-time-handle,
+
+/* current volume */
+#dark .mejs-yellow .mejs-horizontal-volume-slider .mejs-horizontal-volume-current,
+
+/* sourcechooser menu */
+#dark .mejs-yellow .mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector ul li input:checked + label,
+#dark .mejs-yellow .mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector ul li:hover label
+
+{ background-color: #F9BA00; }
+
+/* ------------------------------------------------------------------------ */
+/* $TURQUOISE ( #5BCCCA )
+/* ------------------------------------------------------------------------ */
+
+/* ------------------------------------------ */
+/* $BACKGROUND
+/* ------------------------------------------ */
+
+/* current time bar ( represent watched period ) */
+#dark .mejs-turquoise .mejs-controls .mejs-time-rail .mejs-time-current,
+
+/* adjust current time */
+#dark .mejs-turquoise .mejs-controls .mejs-time-rail .mejs-time-handle,
+
+/* current volume */
+#dark .mejs-turquoise .mejs-horizontal-volume-slider .mejs-horizontal-volume-current,
+
+/* sourcechooser menu */
+#dark .mejs-turquoise .mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector ul li input:checked + label,
+#dark .mejs-turquoise .mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector ul li:hover label
+
+{ background-color: #5BCCCA; }
+
+/* ------------------------------------------------------------------------ */
+/* $ORANGE ( #F39F4B )
+/* ------------------------------------------------------------------------ */
+
+/* ------------------------------------------ */
+/* $BACKGROUND
+/* ------------------------------------------ */
+
+/* current time bar ( represent watched period ) */
+#dark .mejs-orange .mejs-controls .mejs-time-rail .mejs-time-current,
+
+/* adjust current time */
+#dark .mejs-orange .mejs-controls .mejs-time-rail .mejs-time-handle,
+
+/* current volume */
+#dark .mejs-orange .mejs-horizontal-volume-slider .mejs-horizontal-volume-current,
+
+/* sourcechooser menu */
+#dark .mejs-orange .mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector ul li input:checked + label,
+#dark .mejs-orange .mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector ul li:hover label
+
+{ background-color: #F39F4B; }
+
+/* ------------------------------------------------------------------------ */
+/* $BACKGROUND IMAGES
+/* ------------------------------------------------------------------------ */
+
+/* loader button */
+#dark .mejs-overlay-loading span { background-image: url(images/spinner.gif); }
+
+/* big play button */
+#dark .mejs-overlay-button { background-image: url(images/play.png); }
+
+/* controls buttons */
+#dark .mejs-button button { background-image: url(images/controls.png); }

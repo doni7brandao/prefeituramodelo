@@ -1,0 +1,148 @@
+/* ..................................................................................................... */
+/* ALTO CONTRASTE */
+.contrast,
+.contrast nav,
+.contrast header,
+.contrast footer,
+.contrast section,
+.contrast main,
+.contrast aside,
+.contrast #main,
+.contrast #main .conteudo-principal,
+.contrast .breadcrumb,
+.contrast .panel,
+.contrast .dropdown-menu,
+.contrast .panel-title,
+.contrast .panel-heading,
+.contrast .presentation,
+.contrast .servicos,
+.contrast .list-inline,
+.contrast .btn-default,
+.contrast .btn-agenda-completa,
+.contrast .hover,
+.contrast .pull-right,
+.contrast .navbar,
+.contrast .contenttres,
+.contrast .text-center,
+.contrast .well,
+.contrast .list-group-item,
+.contrast .lead,
+.contrast .mrg-btnservico,
+.contrast .dotdotdot,
+.contrast .input-mini,
+.contrast .prev,
+.contrast .thumbnail,
+.contrast .disabled,
+.contrast .form-group,
+.contrast .form-horizontal,
+.contrast .modal-content,
+.contrast .collapse,
+.contrast .tab-content,
+.contrast .bg-uli2,
+.contrast .panel-body,
+.contrast .bg-acessibilidade,
+.contrast .menu-principal,
+.contrast .bg-sessoes,
+.contrast .bg-vereadores,
+.contrast .bg-primary,
+.contrast .hidden-sm,
+.contrast tr td a,
+.contrast ul li a,
+.contrast breadcrumb .container,
+.contrast .mhservicos,
+.contrast .well-white,
+.contrast .container,
+.contrast article {
+    background: black !important;
+    color: white !important;
+}
+
+.contrast h1,
+.contrast h2,
+.contrast h3,
+.contrast h5,
+.contrast h6,
+.contrast label,
+.contrast em,
+.contrast cite,
+.contrast q,
+.contrast b,
+.contrast u,
+.contrast .control-label,
+.contrast span {
+    color: white !important;
+}
+
+.contrast prev {
+    color: #1E1E1E !important;
+}
+.contrast tbody,
+.contrast p,
+.contrast i,
+.contrast td,
+.contrast text,
+.contrast content,
+.contrast strong{
+    color: #8C8C8C !important;
+}
+
+.contrast h4{
+    color: #414141 !important;
+}
+
+.contrast a{
+    color: #F0F0F0 !important;
+}
+.contrast .dataTables_paginate,
+.contrast a:hover{
+    color: #B3B1B8 !important;
+}
+.contrast .prev,
+.contrast .next,
+.contrast a:active{
+    color: #1A1724 !important;
+}
+
+.contrast .orgaoServicos .panel-body .contentServicos .nav-tabs li{
+    margin-bottom: 0px;
+}
+
+.contrast .container .input-group-btn btn{
+    margin-bottom: 0px;
+}
+
+.contrast button,
+.contrast input[type=button],
+.contrast input[type=reset],
+.contrast input[type=submit] {
+    background: black !important;
+    color: yellow !important;
+    border: #D8D800 !important;
+}
+
+.contrast input[type=text],
+.contrast input[type=password],
+.contrast input[type=url],
+.contrast input[type=search],
+.contrast input[type=email],
+.contrast input[type=tel],
+.contrast input[type=date],
+.contrast input[type=month],
+.contrast input[type=week],
+.contrast input[type=datetime],
+.contrast input[type=datetime-local],
+.contrast textarea,
+.contrast input[type=number] {
+    background: black !important;
+    border: 1px solid white !important;
+    color: white !important;
+}
+
+.contrast img.on-contrast-force-gray {
+    filter: grayscale(100%) contrast(120%);
+}
+
+.contrast img.on-contrast-force-white {
+    filter: brightness(0) invert(1);
+}
+

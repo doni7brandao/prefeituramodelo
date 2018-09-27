@@ -1,0 +1,160 @@
+.icon-sic, .icon-transparencia, .icon-contas, .icon-normas{
+	background: url(../img/sprites.png) no-repeat;
+}
+
+.icon-sic{
+	background-position: 0 0;
+	width: 57px;
+	height: 56px;
+}
+
+.icon-transparencia{
+	background-position: -58px 0;
+	width: 72px;
+	height: 42px;
+}
+
+.icon-contas{
+	background-position: -132px 0;
+	width: 53px;
+	height: 48px;
+}
+
+.icon-normas{
+	background-position: -186px 0;
+	width: 51px;
+	height: 55px;
+}
+
+.datasnotcatego {
+	font-size: 12px;
+	margin-bottom: 5px;
+	color: #6b6b6b;
+	text-transform: uppercase;
+}
+
+.btn-anexos {
+  margin: 0 5px 5px 0;
+}
+
+.btn-social{
+	padding: 1.5px 2px;
+	margin-left: 10px;
+    margin-right: 10px;
+    margin-top: -13px;
+    font-size: 11px;
+}
+
+.btn-prefeitura-one{
+	height: 18px;
+	padding: 0px 2px;
+	margin-left: 10px;
+    margin-right: 10px;
+    margin-top: -13px;
+    font-size: 11px;
+}
+
+.btn-prefeitura-tree-concursos-exibir{
+	padding: 1.5px 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: -2px;
+    font-size: 11px;
+}
+
+.btn-estruturav5{
+	padding: 1.5px 2px;
+    margin-left: 10px;
+    margin-right: 18px;
+    margin-top: -4px;
+    font-size: 11px;
+}
+
+.btn-estruturav5-demasi{
+	padding: 1.5px 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: -4px;
+    font-size: 11px;
+}
+
+.btn-estrturav5-exibir{
+	padding: 1.5px 2px;
+    margin-left: 10px;
+    margin-right: -1px;
+    margin-top: -4px;
+    font-size: 11px;
+}
+
+.btn-estruturav6{
+	padding: 1.5px 2px;
+    margin-left: 10px;
+    margin-right: 21px;
+    margin-top: 0px;
+    font-size: 11px;
+}
+
+.btn-estruturav6-exibir{
+	padding: 1.5px 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 0px;
+    font-size: 11px;
+}
+
+.btn-estruturav6-exibir-pagprefeitura{
+	padding: 1.5px 2px;
+    margin-left: 10px;
+    margin-right: 1px;
+    margin-top: 0px;
+    font-size: 11px;
+}
+
+.btn-estruturac1{
+    padding-right: 2px;
+    width: 80px;
+    height: 13.6px;
+    line-height: 14px;
+    padding-left: 1px;
+    padding-top: 0px;
+}
+
+.btn-estruturac1-exibir{
+    padding: 2.2px 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: -14px;
+    font-size: 11px;
+}
+
+.btn-social-c2{
+    padding: 1.5px 2px;
+    margin-left: -1px;
+    margin-right: 10px;
+    margin-top: -4px;
+    font-size: 11px;
+}
+
+.btn-social-paginas{
+    padding: 1.5px 2px;
+    margin-left: 0px;
+    margin-right: -2px;
+    margin-top: -4px;
+    font-size: 11px;
+}
+
+.btn-social-camarav5{
+    padding: 1.5px 2px;
+    margin-left: -1px;
+    margin-right: -5px;
+    margin-top: -14px;
+    font-size: 11px;
+}
+
+.btn-social-camarav5-v1{
+    padding: 1.5px 2px;
+    margin-left: -1px;
+    margin-right: 0px;
+    margin-top: -4px;
+    font-size: 11px;
+}
